@@ -38,11 +38,13 @@ class _CustomButtonDateState extends State<CustomButtonDate> {
                 Text(
                   '$_showdate',
                   style: TextStyle(
-                    fontSize: 18.0
+                    fontSize: 18.0,
+                    color: Color(0xff153F59)
                   )
                 ),
                 Icon(
-                  Icons.date_range
+                  Icons.date_range,
+                  color: Color(0xff153F59),
                 )
               ],
             )

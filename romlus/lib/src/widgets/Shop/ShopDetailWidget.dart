@@ -141,6 +141,7 @@ class _ShopDetailWidgetState extends State<ShopDetailWidget> {
           ),
         ),
         Container(
+          margin: EdgeInsets.only(left: 10.0, right: 10.0, top: 10.0),
           child: CustomButton(
             labelText: "Go To Shop",
             colors: Colors.greenAccent,
